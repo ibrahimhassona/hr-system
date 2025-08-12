@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "departments": "Departments",
+    "attendance": "Attendance",
+    "payroll": "Payroll",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to Human Resources Management System",
+    "totalEmployees": "Total Employees",
+    "activeDepartments": "Active Departments",
+    "presentToday": "Present Today",
+    "pendingRequests": "Pending Requests",
+    "recentActivities": "Recent Activities",
+    "quickActions": "Quick Actions",
+    "addEmployee": "Add Employee",
+    "generateReport": "Generate Report",
+    "viewAttendance": "View Attendance"
+  },
+  "employees": {
+    "title": "Employee Management",
+    "addNew": "Add New Employee",
+    "search": "Search...",
+    "name": "Name",
+    "position": "Position",
+    "department": "Department",
+    "email": "Email",
+    "phone": "Phone",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "language": "Language"
+  }
+}

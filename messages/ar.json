@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "dashboard": "لوحة القيادة",
+    "employees": "الموظفون",
+    "departments": "الأقسام",
+    "attendance": "الحضور",
+    "payroll": "كشف المرتبات",
+    "reports": "التقارير",
+    "settings": "الإعدادات"
+  },
+  "dashboard": {
+    "title": "لوحة القيادة",
+    "welcome": "مرحباً بك في نظام إدارة الموارد البشرية",
+    "totalEmployees": "إجمالي الموظفين",
+    "activeDepartments": "الأقسام النشطة",
+    "presentToday": "الحضور اليوم",
+    "pendingRequests": "الطلبات المعلقة",
+    "recentActivities": "الأنشطة الحديثة",
+    "quickActions": "الإجراءات السريعة",
+    "addEmployee": "إضافة موظف",
+    "generateReport": "إنشاء تقرير",
+    "viewAttendance": "عرض الحضور"
+  },
+  "employees": {
+    "title": "إدارة الموظفين",
+    "addNew": "إضافة موظف جديد",
+    "search": "البحث...",
+    "name": "الاسم",
+    "position": "المنصب",
+    "department": "القسم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "actions": "الإجراءات",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "view": "عرض"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "search": "بحث",
+    "filter": "تصفية",
+    "export": "تصدير",
+    "language": "اللغة"
+  }
+}
