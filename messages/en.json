@@ -1,12 +1,18 @@
 {
   "nav": {
-    "dashboard": "Dashboard",
-    "employees": "Employees",
-    "departments": "Departments",
-    "attendance": "Attendance",
-    "payroll": "Payroll",
-    "reports": "Reports",
-    "settings": "Settings"
+    "employee_file": "Employee File",
+    "leaves_vacations": "Leaves & Vacations",
+    "tax_law": "Tax Law",
+    "social_security": "Social Security",
+    "health_insurance": "Health Insurance",
+    "salary_calculations": "Salary Calculations",
+    "standard_transactions": "Standard Transactions",
+    "advanced_transactions": "Advanced Transactions",
+    "disciplinary_actions": "Disciplinary Actions",
+    "cost_center": "Cost Center",
+    "report_generator": "Report Generator",
+    "time_attendance": "Time and Attendance",
+    "self_service": "Self Service"
   },
   "dashboard": {
     "title": "Dashboard",
@@ -44,5 +50,41 @@
     "filter": "Filter",
     "export": "Export",
     "language": "Language"
+  },
+
+  "profile": {
+    "edit_profile": "Edit Profile",
+    "send_message": "Send Message",
+    "print_file": "Print File",
+    "terminate_service": "Terminate Service",
+    "personal_info": "Personal Info",
+    "job_records": "Job Records",
+    "documents": "Documents",
+    "evaluations": "Evaluations",
+    "email": "Email",
+    "phone": "Phone",
+    "gender": "Gender",
+    "birth_date": "Birth Date",
+    "employee_id": "Employee ID",
+    "join_date": "Join Date",
+    "manager": "Direct Manager",
+    "status": "Job Status",
+    "current_salary": "Current Salary",
+    "last_update": "Last Update",
+    "allowances": "Allowances & Incentives",
+    "remaining_days": "Remaining Days",
+    "used_days": "Used Days",
+    "recent_requests": "Recent Requests",
+    "date": "Date",
+    "type": "Type",
+    "duration": "Duration",
+    "last_evaluation": "Last Evaluation",
+    "strengths": "Strengths",
+    "improvements": "Improvements",
+    "name": "Name",
+    "basic_info": "Basic Information",
+    "job_info": "Job Information",
+    "salary_info": "Salary Information",
+    "leaves_info": "Leaves Information"
   }
 }

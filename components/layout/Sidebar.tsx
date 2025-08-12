@@ -4,13 +4,19 @@ import { useTranslations, useLocale } from 'next-intl';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { 
-  LayoutDashboard, 
-  Users, 
-  Building2, 
-  Clock, 
-  CreditCard, 
-  FileText, 
-  Settings,
+  User,
+  Calendar,
+  FileText,
+  Shield,
+  Heart,
+  Calculator,
+  File,
+  FilePlus,
+  AlertTriangle,
+  DollarSign,
+  BarChart,
+  Clock,
+  UserCog,
   ChevronRight
 } from 'lucide-react';
 
@@ -22,54 +28,92 @@ const Sidebar = () => {
 
   const menuItems = [
     {
-      key: 'dashboard',
-      label: t('nav.dashboard'),
-      icon: LayoutDashboard,
-      href: `/${locale}`,
+      key: 'employee_file',
+      label: t('nav.employee_file'),
+      icon: User,
+      href: `/${locale}/employee-file`,
     },
     {
-      key: 'employees',
-      label: t('nav.employees'),
-      icon: Users,
-      href: `/${locale}/employees`,
+      key: 'leaves_vacations',
+      label: t('nav.leaves_vacations'),
+      icon: Calendar,
+      href: `/${locale}/leaves-vacations`,
     },
     {
-      key: 'departments',
-      label: t('nav.departments'),
-      icon: Building2,
-      href: `/${locale}/departments`,
+      key: 'tax_law',
+      label: t('nav.tax_law'),
+      icon: FileText,
+      href: `/${locale}/tax-law`,
     },
     {
-      key: 'attendance',
-      label: t('nav.attendance'),
+      key: 'social_security',
+      label: t('nav.social_security'),
+      icon: Shield,
+      href: `/${locale}/social-security`,
+    },
+    {
+      key: 'health_insurance',
+      label: t('nav.health_insurance'),
+      icon: Heart,
+      href: `/${locale}/health-insurance`,
+    },
+    {
+      key: 'salary_calculations',
+      label: t('nav.salary_calculations'),
+      icon: Calculator,
+      href: `/${locale}/salary-calculations`,
+    },
+    {
+      key: 'standard_transactions',
+      label: t('nav.standard_transactions'),
+      icon: File,
+      href: `/${locale}/standard-transactions`,
+    },
+    {
+      key: 'advanced_transactions',
+      label: t('nav.advanced_transactions'),
+      icon: FilePlus,
+      href: `/${locale}/advanced-transactions`,
+    },
+    {
+      key: 'disciplinary_actions',
+      label: t('nav.disciplinary_actions'),
+      icon: AlertTriangle,
+      href: `/${locale}/disciplinary-actions`,
+    },
+    {
+      key: 'cost_center',
+      label: t('nav.cost_center'),
+      icon: DollarSign,
+      href: `/${locale}/cost-center`,
+    },
+    {
+      key: 'report_generator',
+      label: t('nav.report_generator'),
+      icon: BarChart,
+      href: `/${locale}/report-generator`,
+    },
+    {
+      key: 'time_attendance',
+      label: t('nav.time_attendance'),
       icon: Clock,
       href: `/${locale}/attendance`,
     },
     {
-      key: 'payroll',
-      label: t('nav.payroll'),
-      icon: CreditCard,
-      href: `/${locale}/payroll`,
-    },
-    {
-      key: 'reports',
-      label: t('nav.reports'),
-      icon: FileText,
-      href: `/${locale}/reports`,
-    },
-    {
-      key: 'settings',
-      label: t('nav.settings'),
-      icon: Settings,
-      href: `/${locale}/settings`,
+      key: 'self_service',
+      label: t('nav.self_service'),
+      icon: UserCog,
+      href: `/${locale}/self-service`,
     },
   ];
 
   return (
     <div className="w-64 bg-white card-shadow-lg h-full flex flex-col">
       {/* Logo */}
-      <div className="p-6 border-b border-neutral-200">
+      <div className="py-2 px-4 border-b border-neutral-200">
+       <Link href={`/${locale}`}>
         <h1 className="text-2xl font-bold text-primary-600">MHG HRM</h1>
+       </Link>
         <p className="text-sm text-neutral-500 mt-1">
           {isRTL ? 'نظام إدارة الموارد البشرية' : 'Human Resources'}
         </p>
